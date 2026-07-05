@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables - NEVER commit this, it contains secrets
+.env
+
+# Local database
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask-Migrate (keep the migrations folder structure, ignore nothing here unless you regenerate it)
+
+# Logs
+*.log
+error.log
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Windows deploy logs (local to each shop computer, not shared)
+deploy/windows/techpro_crm.log
